@@ -1,4 +1,4 @@
-17:18:28 **** Incremental Build of configuration Debug for project smallestMultiple ****
+18:00:04 **** Incremental Build of configuration Debug for project smallestMultiple ****
 make all 
 Building file: ../test/test_Algorithm.cpp
 Invoking: GCC C++ Compiler
@@ -11,5 +11,5 @@ g++  -o "smallestMultiple"  ./test/gtest_main.o ./test/test_Algorithm.o  ./src/A
 Finished building target: smallestMultiple
  
 
-17:18:29 Build Finished (took 873ms)
+18:00:05 Build Finished (took 1s.182ms)
 

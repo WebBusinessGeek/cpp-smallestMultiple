@@ -20,4 +20,23 @@ string Algorithm::getTestAreWorking() const {
 	return "Test are working!";
 }
 
+int Algorithm::getSmallestMultipleOfRange(int rangeStart, int rangeStop) const {
+	int floor = rangeStart;
+	int ceiling = rangeStop;
+	int numToCheck = 1;
+
+	while(rangeStart != rangeStop) {
+		if(numToCheck % rangeStart == 0) {
+			rangeStart++;
+		}
+		else {
+			rangeStart = floor;
+			numToCheck++;
+		}
+	}
+	return numToCheck;
+}
+
+
+
 

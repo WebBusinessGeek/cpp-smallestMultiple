@@ -21,6 +21,8 @@ public:
 
 	string getTestAreWorking() const;
 
+	int getSmallestMultipleOfRange(int rangeStart, int rangeStop) const;
+
 
 private:
 	string testsAreWorking;
