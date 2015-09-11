@@ -22,9 +22,10 @@ string Algorithm::getTestAreWorking() const {
 
 int Algorithm::getSmallestMultipleOfRange(int rangeStart, int rangeStop) const {
 	int floor = rangeStart;
+	int ceiling = rangeStop + 1;
 	int numToCheck = 1;
 
-	while(rangeStart != rangeStop) {
+	while(rangeStart != ceiling) {
 		if(numToCheck % rangeStart == 0) {
 			rangeStart++;
 		}
