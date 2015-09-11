@@ -26,7 +26,7 @@ TEST(GetAnswerToProblem, itShouldReturnTheCorrectAnswer) {
 	Algorithm obj = Algorithm();
 	int rangeStart = 1;
 	int rangeStop = 20;
-	int correctAnswer = 2520;
+	int correctAnswer = 232792560;
 	int result = obj.getSmallestMultipleOfRange(rangeStart, rangeStop);
 	EXPECT_EQ(correctAnswer, result);
 }

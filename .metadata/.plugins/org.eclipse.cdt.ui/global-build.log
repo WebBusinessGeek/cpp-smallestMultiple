@@ -65,3 +65,30 @@ Invoking: MacOS X C++ Linker
 g++  -o "smallestMultiple"  ./test/gtest_main.o ./test/test_Algorithm.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
 Finished building target: smallestMultiple
  
+19:27:54 **** Incremental Build of configuration Debug for project smallestMultiple ****
+make all 
+make: Nothing to be done for `all'.
+19:28:26 **** Incremental Build of configuration Debug for project smallestMultiple ****
+make all 
+Building file: ../test/test_Algorithm.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/smallestMultiple/smallestMultiple/gtest_src" -I"/Users/MacBookEr/Desktop/techFit/c++/smallestMultiple/smallestMultiple/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/test_Algorithm.d" -MT"test/test_Algorithm.d" -o "test/test_Algorithm.o" "../test/test_Algorithm.cpp"
+Finished building: ../test/test_Algorithm.cpp
+ 
+Building target: smallestMultiple
+Invoking: MacOS X C++ Linker
+g++  -o "smallestMultiple"  ./test/gtest_main.o ./test/test_Algorithm.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: smallestMultiple
+ 
+19:28:50 **** Incremental Build of configuration Debug for project smallestMultiple ****
+make all 
+Building file: ../src/Algorithm.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/Users/MacBookEr/Desktop/techFit/c++/smallestMultiple/smallestMultiple/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm.d" -MT"src/Algorithm.d" -o "src/Algorithm.o" "../src/Algorithm.cpp"
+Finished building: ../src/Algorithm.cpp
+ 
+Building target: smallestMultiple
+Invoking: MacOS X C++ Linker
+g++  -o "smallestMultiple"  ./test/gtest_main.o ./test/test_Algorithm.o  ./src/Algorithm.o  ./gtest_src/gtest/gtest-all.o   -lpthread
+Finished building target: smallestMultiple
+ 

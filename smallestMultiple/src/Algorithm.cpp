@@ -22,7 +22,6 @@ string Algorithm::getTestAreWorking() const {
 
 int Algorithm::getSmallestMultipleOfRange(int rangeStart, int rangeStop) const {
 	int floor = rangeStart;
-	int ceiling = rangeStop;
 	int numToCheck = 1;
 
 	while(rangeStart != rangeStop) {
